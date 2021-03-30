@@ -2321,7 +2321,7 @@ ax.legend()
 
 
 
-![png](titanic_files/titanic_37_1.png)
+![png](README_files/README_37_1.png)
 
 
 Az adatokat elemezve a túlélés függvényében néhány következtetést tudunk levonni:
@@ -2410,7 +2410,7 @@ ax.set_xlabel("Kor")
 
 
 
-![png](titanic_files/titanic_40_1.png)
+![png](README_files/README_40_1.png)
 
 
 A férfiak közül a 30 év körüliek esetén kifejezetten rossz a túlélési arány, a 10 év alattiak esetén jelentősen jobb az arányuk.
@@ -2433,7 +2433,7 @@ df_train_["AgeG"]=df_train_["AgeG"]*10
 ```
 
 
-![png](titanic_files/titanic_42_0.png)
+![png](README_files/README_42_0.png)
 
 
 
@@ -2643,7 +2643,7 @@ plt.show()
 ```
 
 
-![png](titanic_files/titanic_49_0.png)
+![png](README_files/README_49_0.png)
 
 
 A túléléssel a legnagyobb korrelációt a nem, a Mr., Miss és Mrs. titulus (amely a nemtől függ), az osztály, a jegyár (amely szintén függ az osztálytól), a szint (amely szintén az osztálytól függ), hogy egyedül van-e (ők jelelmzően férfiak) valamint némileg kevésbé, de a felszállás helye (amely szintén egy alacsony korrelációt mutat az osztállyal). A kor esetén a linerási korreláció alacsony, ennek oka, hogy nem lináris a kapcsolat a túlélés és a kor között, a fiatalabb és idősebb generációk esetén jobbak az esélyek.
@@ -2657,7 +2657,7 @@ plt.show()
 ```
 
 
-![png](titanic_files/titanic_51_0.png)
+![png](README_files/README_51_0.png)
 
 
 Az osztály és szint változókat kategórikus változóként kezelve látszik, hogy a túléléssel való korreláció az osztály esetén szimmetrikus, az első osztályon pozitív, a másodosztályon közel 0, míg a harmadosztályon negatív a korreláció. Az A szint kivételével a többi szinten is folyamatosan csökken a túléléssel a korreláció.
@@ -2727,7 +2727,7 @@ plt.show()
 ```
 
 
-![png](titanic_files/titanic_57_0.png)
+![png](README_files/README_57_0.png)
 
 
 
@@ -2792,7 +2792,7 @@ plt.show()
 ```
 
 
-![png](titanic_files/titanic_60_0.png)
+![png](README_files/README_60_0.png)
 
 
 
@@ -2842,7 +2842,7 @@ _ = tree.plot_tree(decision_tree,feature_names=X_train.columns,
 ```
 
 
-![png](titanic_files/titanic_64_0.png)
+![png](README_files/README_64_0.png)
 
 
 
